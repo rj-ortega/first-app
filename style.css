@@ -1,0 +1,27 @@
+/*element*/
+body {
+  background: purple;
+  color: rgb(47, 142, 142);
+}
+
+/*id*/
+#main-title {
+  color: white;
+}
+
+/*class*/
+.sub-title {
+  color: red;
+}
+
+.image {
+  width: 600px;
+  margin: 0 auto;
+  display: none;
+  transition: 1s;
+}
+
+.image:hover {
+  cursor: pointer;
+  width: 1000px;
+}
